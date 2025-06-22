@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./zomato.css">
+     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./png-transparent-zomato-thumbnail-review-platforms-logos-thumbnail.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>E-Mato</title>
+</head>
+<body>
+    <header>
+      <nav>
+        <div class="app_link">
+            <a href="">Get the app</a>
+            <span class="menu-icon">&#9776</span>
+        </div>
+        <div class="nav_items" id="mobileMenu">
+            <ul>
+         <li><a href="">Inverstor Relation</a></li>
+         <li><a href="">Add Restaurant</a></li>
+         <li><a href="#" onclick="openModal('login'); return false;">Login</a></li>
+  <li><a href="#" onclick="openModal('signup'); return false;">Sign up</a></li>
+         
+            </ul>
+        </div>  
+        </nav>
+
+     <div class="content_wrapper">
+        <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png">
+        <h1>Find the best restaurants, cafés and bars in <span>India</span></h1>
+
+         <div class="search_container">
+            <div class="left_search">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="India">
+            </div>
+            <div class="right_search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+            </div>
+
+            </div>
+         </div> 
+     </div>
+
+
+
+    </header>
+
+
+    <div class="order-section">
+    <div class="order">
+        <div class="card">
+            <a href=""><img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt=""></a>
+            <div class="content">
+               <p class="heading">order online </p>
+                <p class="text">Stay home and order to your doorstep</p>
+            </div>
+        </div>
+        <div class="card">
+            <a href=""><img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt=""></a>
+            <div class="content">
+               <p class="heading">Dining Out</p>
+                <p class="text">Stay home and order to your doorstep</p>
+            </div>
+        </div>
+        <div class="card">
+            <a href=""><img src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt=""></a>
+            <div class="content">
+               <p class="heading">Nightlife & club </p>
+                <p class="text">Stay home and order to your doorstep</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <div class="collectons">
+        <h1>collections</h1>
+        <p> Explore curanted lists of top restaurant,cafe,pubs,and bars in India,based on trends</p>
+        <div class="collections-cards">
+            <div class="card">
+                <img src="https://b.zmtcdn.com/data/collections/4647abf4bb82989ccabda0603555d14b_1710496999.png?output-format=webp" alt="">
+                
+               
+                        <div class="content">
+                    <p>Newly opened places</p>
+                    <p>15 Placed</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="https://b.zmtcdn.com/data/collections/39ea65ee3452651492385c32c957fbed_1714446913.png?output-format=webp" alt="">
+
+                <div class="content">
+                    <p>Trending Places</p>
+                    <p>25 Placed</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="https://b.zmtcdn.com/data/collections/2e8b954961d07f927802853d5944d67b_1717148107.png?output-format=webp" alt="">
+
+                <div class="content">
+                    <p>Something for Every Friend</p>
+                    <p>35 Placed</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="https://b.zmtcdn.com/data/collections/5cbe9bc87c9da2c6954772540d2e5db5_1730710015.png?output-format=webp" alt="">
+
+                <div class="content">
+                    <p>Best insta-worthy Places</p>
+                    <p>10 Placed</p>
+                </div>
+
+            </div>
+        </div>
+    </div> 
+
+   
+ 
+
+
+    <div class="collectons">
+    <h1>Popular location in and around <span>India</span></h1>
+
+    <div class="Popular-location">
+    <div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Lower Parel </p>
+         <p class="places">474 places</p> 
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Agra Place</p>
+         <p class="places">74 places</p> 
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Ahmedabad </p>
+         <p class="places">200 Places</p>
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Ajmer</p>
+         <p class="places">400 places</p>
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Goa</p>
+         <p class="places">700 Places</p>
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Alappuzha</p>
+         <p class="places">224 places </p>
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Amaravati </p>
+         <p class="places">234 places</p>
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Amristar </p>
+         <p class="places">654 Places</p>
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Bengaluru </p>
+         <p class="places">474 places</p> 
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Bhopal </p>
+         <p class="places">50 Places </p>
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Lucknow </p>
+         <p class="places">590 Places</p>
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> Gorakhpur</p>
+         <p class="places">789 Places</p>
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+<div class="box">  
+    <div class="places">
+      <a href="">
+         <p class="city"> See more</p>
+         
+      </a>
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+</div>
+
+
+
+
+    </div>
+    </div>
+
+    </div>
+
+
+
+
+<div class="app-section">
+    <div class="app">
+        <div class="app-image">
+            <img src="https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png" alt="">
+        </div>
+        <div class="get-app">
+        <h2>Get the Zomato app</h2>
+        <p>We will send you a link ,open it on your phone to dowload the app</p>
+
+
+        <div class="email-phone">
+            <input type="radio" checked>Email &nbsp; &nbsp; &nbsp; &nbsp; 
+                       <input type="radio">Phone
+        </div>
+        <div class="submit">
+            <input type="text" placeholder="email">
+            <button>Share app link</button>
+            
+        </div>
+        <div class="app-store">
+            <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">
+            <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+ <div class="collectons">
+    <h1>Explore option near me </h1>
+   
+    <div class="option">
+        <button>Popular cuisines near me</button>
+    </div>
+    <div class="option">
+        <button>Popular restaurant types near me</button>
+    </div>
+    <div class="option">
+        <button>Top restaurant chains</button>
+    </div>
+    <div class="option">
+        <button>Cities we deliver to</button>
+    </div>
+ </div>
+
+
+
+<div class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="" class="src">
+            <div class="footer-btn">
+                <button>India</button>
+                <button>English</button>
+
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="column">
+                <div>About zomato</div>
+                <ul class="col-links">
+             <li><a href="">Who we are</a></li>
+             <li><a href="">Blog</a></li>
+             <li><a href="">Work with us</a></li>
+             <li><a href="">Investor</a></li>
+             <li><a href="">Relations</a></li>
+             <li><a href="">Report fund</a></li>
+             <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <div>Zomaverse</div>
+                <ul class="col-links">
+             <li><a href="">Zomato</a></li>
+             <li><a href="">Blinkit</a></li>
+             <li><a href="">Feeding India</a></li>
+             <li><a href="">Hyperpure</a></li>
+             <li><a href="">Zomato live</a></li>
+             <li><a href="">Zomaland</a></li>
+             <li><a href="">Weather union</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <div>For Restaurants</div>
+                <ul class="col-links">
+             <li><a href="">Partner with us</a></li>
+             <li><a href="">Apps For You</a></li>
+            
+                </ul>
+            </div>
+            <div class="column">
+                <div>Learn More</div>
+                <ul class="col-links">
+             <li><a href="">Privacy</a></li>
+             <li><a href="">Security</a></li>
+             <li><a href="">Teams</a></li>
+             
+                </ul>
+            </div>
+            <div class="column">
+                <div>Learn More</div>
+                <ul class="col-links">
+                    <a href="'"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="'"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="'"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="'"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="'"><i class="fa-brands fa-facebook"></i></a>
+
+                   <li><img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt=""></li>
+                   
+                <li><img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt=""></li> 
+                </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+    <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2025 © Zomato™ Ltd. All rights reserved!</p>
+
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+<!-- AUTH MODAL -->
+ 
+<div id="authModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <!-- LOGIN FORM -->
+    <div id="loginForm">
+      <h2>Login</h2>
+      <input type="email"  id="loginEmail"    placeholder="Email"    required />
+      <input type="password" id="loginPassword" placeholder="Password" required />
+      <button onclick="handleLogin()">Log In</button>
+      <p>Don't have an account?
+        <a href="#" onclick="openModal('signup'); return false;">Sign Up</a>
+      </p>
+    </div>
+
+    <!-- SIGNUP FORM -->
+    <div id="signupForm" style="display:none;">
+      <h2>Sign Up</h2>
+      <input type="text"     id="signupName"     placeholder="Full Name" required />
+      <input type="email"    id="signupEmail"    placeholder="Email"     required />
+      <input type="password" id="signupPassword" placeholder="Password"  required />
+      <button onclick="handleSignup()">Create Account</button>
+      <p>Already have an account?
+        <a href="#" onclick="openModal('login'); return false;">Log In</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
